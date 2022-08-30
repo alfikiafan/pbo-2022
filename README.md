@@ -1,4 +1,4 @@
-## Pemrograman Berorientasi Objek
+## Mata Kuliah Pemrograman Berorientasi Objek
 ### Tugas, Praktikum, dan Responsi
 - Nama: [Alfiki Diastama Afan Firdaus](http://github.com/alfikiafan)
 - NIM: M0521009
