@@ -5,7 +5,7 @@ public class DiskonMiniMarket {
         Scanner sc = new Scanner(System.in);
         System.out.println("Total pembelian: ");
         // tambahkan code untuk menyimpan nominal total pembelian
-        long total_pembelian = sc.nextInt();
+        long total_pembelian = sc.nextLong();
         // tambahkan code untuk mengimplementasikan ketentuan diskon yang ditetapkan
         if (total_pembelian >= 50000 && total_pembelian <= 75000)
             total_pembelian = (long) (0.95 * total_pembelian);
