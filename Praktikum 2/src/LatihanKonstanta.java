@@ -1,10 +1,9 @@
 public class LatihanKonstanta {
-    // public static final int KURS_DOLLAR = 15000; // error
-    public static int KURS_DOLLAR = 15000;
+    public static final int KURS_DOLLAR = 15000;
     public static final double PI = 3.14;
     public static final String NAMA = "Squidward";
     public static void main(String[] args) {
-        KURS_DOLLAR = 13500;
+        // KURS_DOLLAR = 13500;
         System.out.println(KURS_DOLLAR);
         System.out.println(PI);
         System.out.println(NAMA);
@@ -12,10 +11,13 @@ public class LatihanKonstanta {
 }
 
 /* Apa yang salah dengan source code tersebut?
- * Jawab: KURS_DOLLAR yang merupakan konstanta (final) diubah oleh baris kode di bawahnya.
- * Solusi: Menghapus keyword "final" pada inisialisasi konstanta agar menjadi variabel.
+ * Jawab : Adanya assignment terhadap konstanta KURS_DOLLAR yang telah diinisialisasi sebelumnya.
+ * Solusi: Menghapus keyword "final" pada inisialisasi konstanta agar menjadi variabel
+ *         atau mennnaktifkan kode assignment konstanta yang sudah diinisialisasi.
  *
  * Apa maksud penggunaan keyword static sebelum keyword final pada deklarasi variabel tersebut?
- * Jawab: Perintah khusus yang memungkinkan sebuah properti atau method diakses langsung tanpa melalui objek,
- * akan tetapi cukup dengan hanya menulis nama classnya saja.
+ * Jawab : Dengan menggunakan static maka method dan variable akan menjadi milik class, bukan menjadi milik
+ *         suatu instance. Jika di suatu class terdapat static variable dan static method, maka ketika kita ingin
+ *         class lain menggunakannya dapat langsung memanggil variable atau method tersebut dengan format:
+ *         NamaClass.namaStaticVariableAtauMethod. Kita tidak perlu lagi membuat suatu objek dari class tersebut.
  */
