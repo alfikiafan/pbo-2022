@@ -1,5 +1,5 @@
 ## Mata Kuliah Pemrograman Berorientasi Objek
-### Repositori Tugas dan Praktikum yang Ditugaskan oleh Dosen
+### Repositori Tugas dan Praktikum
 - Nama: [Alfiki Diastama Afan Firdaus](http://github.com/alfikiafan)
 - NIM: M0521009
 
