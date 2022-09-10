@@ -2,6 +2,7 @@
 ### Repositori Tugas dan Praktikum
 - Nama: [Alfiki Diastama Afan Firdaus](http://github.com/alfikiafan)
 - NIM: M0521009
+- Kelas: A
 
 > Program Studi Informatika  
 > Universitas Sebelas Maret  
