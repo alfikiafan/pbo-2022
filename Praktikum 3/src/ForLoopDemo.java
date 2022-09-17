@@ -27,8 +27,9 @@ public class ForLoopDemo {
         int i = 0;
         int[] arr = {5, 1, 4, 2, 3};
         do {
+            if (arr.length == 0) break;
             System.out.println("Elemen ke-" + i + " = " + arr[i]);
             i++;
-        } while (i < 5);
+        } while (i < arr.length);
     }
 }
