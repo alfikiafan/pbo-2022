@@ -13,8 +13,11 @@ public class ForLoopDemo {
  * indeksnya lebih besar dari ukuran array. Jumlah elemen array hanya 5, sehingga indeks terakhir adalah 4.
  * Pada kondisi int i < 6 yang dituliskan di for loop, ada angka 5 yang memenuhi kondisi, di mana tidak ada
  * elemen array yang berindeks 5.
+ * 
  * Selain itu, indeks array dimulai dari 1, padahal seharusnya array dimulai dari indeks ke-0. Akibatnya, ada
  * elemen yang terlewat.
+ * 
+ * Warning: format penulisan array tidak menggunakan gaya Java.
  */
 
 // SOAL NOMOR 2
